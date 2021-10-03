@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 100%;
+}
+
 html {
     background-image: url(images/tokyo2.jpg);
     background-size: 100vw 100vh;
@@ -109,6 +113,9 @@ blockquote {
     content: "\2014\0020";
 }
 
+.naomi {
+    max-width: 100%;
+}
 
 .naomi img {
     width: 550px;
@@ -119,8 +126,22 @@ blockquote {
     box-shadow: 10px 10px 5px #ccc;
 }
 
-/* Video */
+/* Video section */
 
-.Highlight-reel {
-    margin-left: 50%;
+.highlight-reel {
+    height: 500px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-reel p {
+    display: flex;
+    align-items: center;
+}
+
+iframe {
+    /* margin: 80px 0 0 150px; */
+    border-radius: 10px;
 }
