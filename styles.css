@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(images/tokyo2.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    margin: 30px 0 0 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+    margin: 10px 0 0 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 100px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Socials */
+
+ul img {
+    width: 25px;
+    height: 25px;
+}
+
+.socials-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials-list li {
+    margin-left: 97.2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.socials-list img {
+    border-radius: 50%;
+}
+
+.vertical {
+    background-color: white;
+    width: 3px;
+    height: 30vh;
+    margin-left: 98%;
+}
+
+/* BLOCKQUOTES */
+
+.info {
+    /* position: relative; */
+    text-align: right;
+    margin-right: 100px;
+    color: grey;
+    margin-top: 5px;
+}
+
+blockquote {
+    color: black;
+    width: 45vw;
+    margin: 350px 0 0 50px;
+    position: absolute;
+    font-family: 'Vollkorn', serif;
+}
+
+.quotation::before {
+    content: "\201C";
+    font-size: 100px;
+    display: block;
+    margin-bottom: -80px;
+    margin-top: -20px;
+}
+
+.quote-text {
+    font-size: 20px;
+}
+
+.quote-author  {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+
+.quote-author::before {
+    content: "\2014\0020";
+}
+
+
+.naomi img {
+    width: 550px;
+    height: 750px;
+    margin: 120px 0 0 790px;
+    border-radius: 20px;
+    box-shadow: 10px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+/* Video */
+
+.Highlight-reel {
+    margin-left: 50%;
+}
