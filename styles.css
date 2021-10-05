@@ -1,147 +1,189 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    max-width: 100%;
+  /* max-width: 100%; */
 }
 
 html {
-    background-image: url(images/tokyo2.jpg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
+  background-image: url(images/tokyo2.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 }
 
 header {
-    display: flex;
-    margin: 30px 0 0 20px;
+  display: flex;
+  margin: 30px 0 0 20px;
 }
 
 .logo img {
-    width: 100px;
-    height: 50px;
-    margin: 10px 0 0 30px;
+  width: 100px;
+  height: 50px;
+  margin: 10px 0 0 30px;
 }
 
 nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 nav li {
-    margin-left: 100px;
-    letter-spacing: 3px;
-    font-weight: bold;
+  margin-left: 100px;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* Socials */
 
 ul img {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
 .socials-list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .socials-list li {
-    margin-left: 97.2%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-left: 97.2%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .socials-list img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .vertical {
-    background-color: white;
-    width: 3px;
-    height: 30vh;
-    margin-left: 98%;
+  background-color: white;
+  width: 3px;
+  height: 30vh;
+  margin-left: 98%;
 }
 
 /* BLOCKQUOTES */
 
 .info {
-    /* position: relative; */
-    text-align: right;
-    margin-right: 100px;
-    color: grey;
-    margin-top: 5px;
+  /* position: relative; */
+  margin-left: 65%;
+  /* margin-right: 100px; */
+  color: grey;
+  margin-top: 10px;
 }
 
 blockquote {
-    color: black;
-    width: 45vw;
-    margin: 350px 0 0 50px;
-    position: absolute;
-    font-family: 'Vollkorn', serif;
+  color: black;
+  width: 45vw;
+  margin: 350px 0 0 50px;
+  position: absolute;
+  font-family: "Vollkorn", serif;
 }
 
 .quotation::before {
-    content: "\201C";
-    font-size: 100px;
-    display: block;
-    margin-bottom: -80px;
-    margin-top: -20px;
+  content: "\201C";
+  font-size: 100px;
+  display: block;
+  margin-bottom: -80px;
+  margin-top: -20px;
 }
 
 .quote-text {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.quote-author  {
-    text-align: right;
-    text-decoration: none;
-    color: black;
+.quote-author {
+  text-align: right;
+  text-decoration: none;
+  color: black;
 }
 
 .quote-author::before {
-    content: "\2014\0020";
+  content: "\2014\0020";
 }
 
 .naomi {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .naomi img {
-    width: 550px;
-    height: 750px;
-    margin: 120px 0 0 790px;
-    border-radius: 20px;
-    box-shadow: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+  width: 550px;
+  height: 750px;
+  margin-top: 20%;
+  /* margin: 120px 0 0 790px; */
+  border-radius: 20px;
+  box-shadow: 10px;
+  box-shadow: 10px 10px 5px #ccc;
 }
 
 /* Video section */
 
 .highlight-reel {
-    height: 500px;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 500px;
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.highlight-reel p {
-    display: flex;
-    align-items: center;
+h1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30px;
 }
 
 iframe {
-    /* margin: 80px 0 0 150px; */
-    border-radius: 10px;
+  /* margin: 80px 0 0 150px; */
+  border-radius: 10px;
+}
+
+/* culture styles */
+.culture {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.culture img {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: purple;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+footer li {
+  margin-bottom: 20px;
 }
