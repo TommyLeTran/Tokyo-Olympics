@@ -15,11 +15,32 @@
     </div>
     
     <nav>
-        <ul class="nav">    
-            <li><a href="#">SPORTS</a></li>
-            <li><a href="#">MEDALS</a></li>
-            <li><a href="#">HIGHLIGHTS</a></li>
-        </ul>
+
+        <div>
+            <h1>Sports</h1>
+            <ul class="drop-down">
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Medals</h1>
+            <ul class="drop-down">
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Highlights</h1>
+            <ul class="drop-down">
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+            </ul>
+        </div>
+
     </nav>
 </header>
 
@@ -55,7 +76,7 @@
     
     <section>
         <div class="highlight-reel">
-            <h1>Olympic Games ~ Where Greatness Happens</h1>
+            <h2>Olympic Games ~ Where Greatness Happens</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ENMhrEVa4XQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
@@ -82,7 +103,7 @@
         <div>
             <div>
                 <ul>
-                    <li>Olympic Games</li>
+                    <li class="footer-title">Olympic Games</li>
                     <li>Tokyo 2020</li>
                     <li>Results & Medals</li>
                     <li>Replays & Highlights</li>
@@ -92,7 +113,7 @@
 
             <div>
                 <ul>
-                    <li>Olympic Channel</li>
+                    <li class="footer-title">Olympic Channel</li>
                     <li>TV Channel</li>
                     <li>Live Events</li>
                     <li>Original Series</li>
@@ -101,7 +122,7 @@
 
             <div>
                 <ul>
-                    <li>News</li>
+                    <li class="footer-title">News</li>
                     <li>Topics</li>
                     <li>Podcasts</li>
                 </ul>
@@ -109,7 +130,7 @@
 
             <div>
                 <ul>
-                    <li>Explore</li>
+                    <li class="footer-title">Explore</li>
                     <li>Athletes</li>
                     <li>Sports</li>
                 </ul>
@@ -117,4 +138,16 @@
         </div>
     </footer>
 </body>
+
+<script>
+
+    let drop = document.querySelector(".drop-down");
+    let h1 = document.querySelector("h1");
+
+    h1.addEventListener('click', function(event) {
+        drop.style.display = "block";
+    })
+
+</script>
+
 </html>

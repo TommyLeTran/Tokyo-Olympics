@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* max-width: 100%; */
-}
-
 html {
   background-image: url(images/tokyo2.jpg);
   background-size: 100vw 100vh;
@@ -23,25 +19,33 @@ header {
   margin: 10px 0 0 30px;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-nav li {
-  margin-left: 100px;
-  letter-spacing: 3px;
-  font-weight: bold;
-}
-
 a {
   text-decoration: none;
   color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  color: white;
+}
+
+nav h1 {
+  cursor: pointer;
+}
+
+.drop-down {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  display: none;
+}
+
+.drop-down li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 /* Socials */
@@ -76,9 +80,7 @@ ul img {
 /* BLOCKQUOTES */
 
 .info {
-  /* position: relative; */
   margin-left: 65%;
-  /* margin-right: 100px; */
   color: grey;
   margin-top: 10px;
 }
@@ -121,7 +123,6 @@ blockquote {
   width: 550px;
   height: 750px;
   margin-top: 20%;
-  /* margin: 120px 0 0 790px; */
   border-radius: 20px;
   box-shadow: 10px;
   box-shadow: 10px 10px 5px #ccc;
@@ -138,7 +139,7 @@ blockquote {
   align-items: center;
 }
 
-h1 {
+h2 {
   display: flex;
   align-items: center;
   color: white;
@@ -146,7 +147,6 @@ h1 {
 }
 
 iframe {
-  /* margin: 80px 0 0 150px; */
   border-radius: 10px;
 }
 
@@ -186,4 +186,9 @@ footer ul {
 
 footer li {
   margin-bottom: 20px;
+}
+
+.footer-title {
+  font-size: 25px;
+  font-weight: bold;
 }
